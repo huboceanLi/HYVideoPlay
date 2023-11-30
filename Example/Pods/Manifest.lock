@@ -1,0 +1,16 @@
+PODS:
+  - HYVideoPlay (0.1.0)
+
+DEPENDENCIES:
+  - HYVideoPlay (from `../`)
+
+EXTERNAL SOURCES:
+  HYVideoPlay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYVideoPlay: 9b246f72170450d00e3385bb1f4db84f1e8ce96a
+
+PODFILE CHECKSUM: 280b3f3f4bd96cd5a92f169297b0583e84970246
+
+COCOAPODS: 1.13.0

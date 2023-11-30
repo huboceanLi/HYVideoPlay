@@ -1,0 +1,6 @@
+framework module Pods_HYVideoPlay_Tests {
+  umbrella header "Pods-HYVideoPlay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

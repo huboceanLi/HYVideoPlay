@@ -1,0 +1,6 @@
+framework module HYVideoPlay {
+  umbrella header "HYVideoPlay-umbrella.h"
+
+  export *
+  module * { export * }
+}

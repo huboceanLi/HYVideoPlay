@@ -39,7 +39,7 @@ A short description of play video m3u8.
   s.vendored_frameworks = ['HYVideoPlay/HYMedia.framework','HYVideoPlay/XYSwiftVideo.framework']
   
   s.dependency "Masonry", '1.1.0'
-  s.dependency "QMUIKit", '4.5.1'
+  s.dependency "QMUIKit"
   s.dependency "Alamofire", '4.9.1'
   s.dependency "HandyJSON", '5.0.2'
   s.dependency "SnapKit", '5.6.0'

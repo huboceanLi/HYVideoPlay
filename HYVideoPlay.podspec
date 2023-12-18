@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYVideoPlay'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of play video m3u8.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ A short description of play video m3u8.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.static_framework = true
   s.resources = 'HYVideoPlay/Class/Resources/*.bundle'
-  s.vendored_frameworks = ['HYVideoPlay/HYMedia.framework','HYVideoPlay/XYSwiftVideo.framework']
+  s.vendored_frameworks = ['HYVideoPlay/VideoFrame.framework']
   
   s.dependency "Masonry", '1.1.0'
   s.dependency "QMUIKit"

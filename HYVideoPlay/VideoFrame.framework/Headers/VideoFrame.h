@@ -17,10 +17,10 @@ FOUNDATION_EXPORT const unsigned char VideoFrameVersionString[];
 
 
 #import <VideoFrame/HYUkHeader.h>
-#import <VideoFrame/HYLocalPathManager.h>
-#import <VideoFrame/HYUkVideoConfigManager.h>
+#import <VideoFrame/YJHYLocalPathManager.h>
+#import <VideoFrame/YJHYUkVideoConfigManager.h>
 
-#import <VideoFrame/YXTypeManager.h>
-#import <VideoFrame/HYUkHomeViewController.h>
-//#import <VideoFrame/SJRotationManager.h>
+#import <VideoFrame/YJYXTypeManager.h>
+#import <VideoFrame/YJHYUkHomeViewController.h>
+#import <VideoFrame/YJLHYReachability.h>
 

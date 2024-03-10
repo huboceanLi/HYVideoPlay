@@ -1,0 +1,22 @@
+//PHETWYOJCSEIWJCKWCXRNIWFFLQUIAFPREAQUTEHNUDFAHCHBOTIBUYFCBUKIMRLLLCWAXMWQPGBUBZUVCJORQIPWHMZZVYEEQCX
+//
+//  YJHYUkCategeryListView.h
+//  AFNetworking
+//
+//  Created by oceanMAC on 2023/4/27.
+//
+
+#import <UIKit/UIKit.h>
+#import <HYBaseTool/HYBaseTool.h>
+#import "HYUkHeader.h"
+#import "HYUkTempCategaryModel.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface YJHYUkCategeryListView : HYBaseView
+
+@property (nonatomic, strong) HYUkTempCategaryModel *tempCategaryModel;
+
+@end
+
+NS_ASSUME_NONNULL_END

@@ -1,0 +1,21 @@
+//EQAIPOMSYCIAVCYQZZFBGHOTUXGOLTEYWGNCIRDQGGOTXFDVXELGVHXVWEVGCCKIMIAYMQBJOTNOSSIISBXCPOFBNQFJPEEGYZNB
+//
+//  YJHYUkAllGatherListView.h
+//  HYUKSDK
+//
+//  Created by Ocean 李 on 2023/5/14.
+//
+
+#import <HYBaseTool/HYBaseTool.h>
+#import "HYUkHeader.h"
+NS_ASSUME_NONNULL_BEGIN
+
+@class HYUkHistoryRecordModel;
+
+@interface YJHYUkAllGatherListView : HYBaseView
+
+- (void)changeSelect:(HYUkHistoryRecordModel *)recordModel;
+
+@end
+
+NS_ASSUME_NONNULL_END

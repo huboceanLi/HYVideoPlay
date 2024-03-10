@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYVideoPlay'
-  s.version          = '1.2.0'
-  s.summary          = 'A short description of play video m3u8.'
+  s.version          = '1.3.0'
+  s.summary          = 'A short description of play video m3u8. init frameWork'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,13 +38,26 @@ A short description of play video m3u8.
   s.resources = 'HYVideoPlay/Class/Resources/*.bundle'
   s.vendored_frameworks = ['HYVideoPlay/VideoFrame.framework']
   
+  s.dependency "QMUIKit", '4.6.1'
   s.dependency "Masonry", '1.1.0'
-  s.dependency "QMUIKit"
+  s.dependency "HYBaseTool", '1.0.4'
+  s.dependency "AFNetworking"
+  s.dependency "CTNetworking"
+  s.dependency "JXCategoryView"
+  s.dependency "YYModel"
+  s.dependency "HYText"
+  s.dependency "YYCategories"
+  s.dependency "YYWebImage"
+  s.dependency "MJRefresh"
+  s.dependency "WCDB.swift", '1.1.0'
   s.dependency "Alamofire", '4.9.1'
   s.dependency "HandyJSON", '5.0.2'
   s.dependency "SnapKit", '5.6.0'
-  s.dependency "YYWebImage"
-  s.dependency "YYModel"
+
+  
+  
+  
+  
   # s.resource_bundles = {
   #   'HYVideoPlay' => ['HYVideoPlay/Assets/*.png']
   # }
